@@ -19,7 +19,7 @@ TestNg+allure+Jenkins 接口自动化框架
 
 > 2.注意类与方式的继承性！    
 
-!()[https://github.com/fxlysm/apitest/blob/master/picture/000.png] 
-!()[https://github.com/fxlysm/apitest/blob/master/picture/001.png]  
-!()[https://github.com/fxlysm/apitest/blob/master/picture/002.png]  
-!()[https://github.com/fxlysm/apitest/blob/master/picture/003.png]   
+!()[https://github.com/fxlysm/apitest/blob/master/image/000.png] 
+!()[https://github.com/fxlysm/apitest/blob/master/image/001.png]  
+!()[https://github.com/fxlysm/apitest/blob/master/image/002.png]  
+!()[https://github.com/fxlysm/apitest/blob/master/image/003.png]   
