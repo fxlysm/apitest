@@ -18,11 +18,7 @@ TestNg+allure+Jenkins 接口自动化框架
 > 1.在添加测试用例时，首先考虑 参数的规划，全局可变参数 放至外部（使用参数化构建方式），模块可变参数放于 测试套件中的参数！
 
 > 2.注意类与方式的继承性！    
-
-!()[https://github.com/fxlysm/apitest/blob/master/image/000.png]
-
-!()[https://github.com/fxlysm/apitest/blob/master/image/001.png] 
-
-!()[https://github.com/fxlysm/apitest/blob/master/image/002.png]
-
-!()[https://github.com/fxlysm/apitest/blob/master/image/003.png]   
+![Screenshot]（https://github.com/fxlysm/apitest/blob/master/image/000.png）
+![Screenshot]（https://github.com/fxlysm/apitest/blob/master/image/001.png）
+![Screenshot]（https://github.com/fxlysm/apitest/blob/master/image/002.png）
+![Screenshot]（https://github.com/fxlysm/apitest/blob/master/image/003.png）
