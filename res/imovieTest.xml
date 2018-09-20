@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API-test" parallel="tests" preserve-order="true"
+	thread-count="3" configfailurepolicy="continue">
+
+	<test verbose="2" name="ImovieUi-test" enabled="true"
+		preserve-order="true">
+		<parameter name="channel" value="微信小程序接口"></parameter>
+		<!--
+		<parameter name="runenvironment" value="test"></parameter>
+		<parameter name="Cookie" value="Cookie"></parameter>
+		 		-->
+		<parameter name="Cookie" value="${Cookie}"></parameter>
+		<parameter name="runenvironment" value="${runenvironment}"></parameter>
+
+	
+		<parameter name="runenvironment" value="test"></parameter>
+		<classes>
+
+			<!-- 代付请求 -->
+			<class name="com.imove.AutoTest.testcase.Login">
+				<methods>
+					<include name="testlogin"></include>
+					<include name="Logout"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+ <!-- 
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+
+	</listeners>
+	-->
+	<listeners>
+	
+</listeners>
+</suite>
